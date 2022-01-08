@@ -17,13 +17,14 @@ Please make this a **single** zip file named `{yourname}.zip` containing:
 The task is to create a web application that shows a list of products and the following information about each product:
 
 - Name
-- Rating
+- Description
 - Category
+- Rating
 - Price
 
 Allow user to sort and filter data by each column. **Data sorting and filtering have to be server side operations**
 
-Use **product-list.json** file as a data source for your application.
+Use **[product.json](products.json)** file as a data source for your application.
 
 ### Platform choice
 
@@ -46,13 +47,13 @@ Feel free to spend as much or as little time on the exercise as you like as long
 Given I am a **user running the application**
 When I **open application main page**
 Then I want to see a **list of all products**
-And I want to **sort product list by Name, Rating, Category and Price**
-And I want to **filter product list by Name, Rating, Category and Price**
+And I want to **sort product list by Name, Description, Category, Rating and Price**
+And I want to **filter product list by Name, Description, Category, Rating and Price**
 
 #### Acceptance criteria
 
 - Entire list of products is displayed
-- The Name, Rating, Category and Price of the product are displayed
+- The Name, Description, Category, Rating and Price of the product are displayed
 - When sorting applied the list is displayed accordingly to sort criteria
 - When filter applied the list is displayed including data which match filter criteria.
 
