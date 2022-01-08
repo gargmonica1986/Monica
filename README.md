@@ -24,39 +24,39 @@ The task is to create a web application that shows a list of products and the fo
 
 Allow user to sort and filter data by each column. 
 
-**List loading, sorting and filtering have to be a server side operations, either web api or mvc action calls**
+**Important!** Data loading, sorting and filtering have to be a server side operations, either web api or mvc action calls.
 
 Use **[product.json](products.json)** file as a data source for your application.
 
 ### Platform choice
 
-Create a web application in any of the following platforms
+Create a web application in any of the following platforms:
 
 - ASP.NET MVC
 - Web Api and Angular
 
 ### Task requirements
 
-Feel free to spend as much or as little time on the exercise as you like as long as the following requirements have been met. However, we understand people have busy lives and would guide you to spend no more than 2-3 hours on a submission. We also take into consideration the [Answers to technical questions.md](#technical-questions) file and what you would like to have added if you had more time. You should look at this as the complete solution, it's much quicker to explain what you would like to have done than code it.
+Feel free to spend as much or as little time on the exercise as you like as long as the following requirements have been met. However, we understand people have busy lives and would guide you to spend no more than 3-4 hours on a submission. We also take into consideration the [Answers to technical questions.md](#technical-questions) file and what you would like to have added if you had more time. You should look at this as the complete solution, it's much quicker to explain what you would like to have done than code it.
 
 - Please complete the user story below.
 - Your code should compile and run in one step.
 - Feel free to use whatever frameworks / libraries / packages you like.
-- Please avoid including artifacts from your local build (such as NuGet packages or the bin folder(s)) in your final ZIP file
+- Please avoid including artifacts from your local build (such as NuGet packages or the bin folder(s)) in your final ZIP file.
 
 ### User Story
 
-Given I am a **user running the application**
-When I **open application main page**
-Then I want to see a **list of all products**
-And I want to **sort product list by Name, Description, Category, Rating and Price**
-And I want to **filter product list by Name, Description, Category, Rating and Price**
+Given I am a **user running the application** 
+When I **open application main page** 
+Then I want to see a **list of all products** 
+And I want to **sort product list by Name, Description, Category, Rating and Price** 
+And I want to **filter product list by Name, Description, Category, Rating and Price** 
 
 #### Acceptance criteria
 
-- Entire list of products is displayed
-- The Name, Description, Category, Rating and Price of the product are displayed
-- When sorting applied the list is displayed accordingly to sort criteria
+- Entire list of products is displayed by default.
+- The Name, Description, Category, Rating and Price of the product are displayed.
+- When sorting applied the list is displayed accordingly to sorting criteria.
 - When filter applied the list is displayed including data which match filter criteria.
 
 # Technical questions
