@@ -22,7 +22,9 @@ The task is to create a web application that shows a list of products and the fo
 - Rating
 - Price
 
-Allow user to sort and filter data by each column. **Data sorting and filtering have to be server side operations**
+Allow user to sort and filter data by each column. 
+
+**List loading, sorting and filtering have to be a server side operations, either web api or mvc action calls**
 
 Use **[product.json](products.json)** file as a data source for your application.
 
