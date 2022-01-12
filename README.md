@@ -5,7 +5,7 @@ Thank you for taking the time to do our technical test. It consists of two parts
 * [A coding test](#coding-test)
 * [A few technical questions](#technical-questions)
 
-In order to avoid bounced emails we would like you to submit your results by uploading the relevant ZIP file to a shared Google Drive folder. In order to obtain the URL for this folder, please supply your Gmail or Google-based email address to person who assigned you the test.
+To avoid bounced emails we would like you to submit your results by uploading the relevant ZIP file to a shared Google Drive folder. To obtain the URL for this folder, please supply your Gmail or Google-based email address to the person who assigned you the test.
 
 Please make this a **single** zip file named `{yourname}.zip` containing:
 
@@ -24,9 +24,9 @@ The task is to create a web application that shows a list of products and the fo
 
 Allow user to sort and filter data by each column. 
 
-**Important!** Data loading, sorting and filtering have to be a server side operations, either web api or mvc action calls.
+**Important!** Data loading, sorting, and filtering have to be server side operations, either web api or mvc action calls.
 
-Use **[product.json](products.json)** file as a data source for your application.
+Use the **[product.json](products.json)** file as a data source for your application.
 
 ### Platform choice
 
@@ -37,7 +37,7 @@ Create a web application in any of the following platforms:
 
 ### Task requirements
 
-Feel free to spend as much or as little time on the exercise as you like as long as the following requirements have been met. However, we understand people have busy lives and would guide you to spend no more than 3-4 hours on a submission. We also take into consideration the [Answers to technical questions.md](#technical-questions) file and what you would like to have added if you had more time. You should look at this as the complete solution, it's much quicker to explain what you would like to have done than code it.
+Feel free to spend as much or as little time on the exercise as you like as long as the following requirements have been met. However, we understand people have busy lives and would guide you to spend no more than 3-4 hours on a submission. We also take into consideration the answers you provide in your file [Answers to technical questions.md](#technical-questions) and what you would like to have added if you had more time. You should look at this as the complete solution, it's much quicker to explain what you would like to have done than code it.
 
 - Please complete the user story below.
 - Your code should compile and run in one step.
@@ -57,7 +57,7 @@ And I want to **filter product list by Name, Description, Category, Rating and P
 - Entire list of products is displayed by default.
 - The Name, Description, Category, Rating and Price of the product are displayed.
 - When sorting applied the list is displayed accordingly to sorting criteria.
-- When filter applied the list is displayed including data which match filter criteria.
+- When filters are applied the list is displayed including data which match filter criteria.
 
 # Technical questions
 
