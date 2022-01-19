@@ -24,7 +24,7 @@ The task is to create a web application that shows a list of products and the fo
 
 Allow user to sort and filter data by each column. 
 
-**Important!** Data loading, sorting, and filtering have to be server side operations, either web api or mvc action calls.
+**Important!** Data loading, sorting, and filtering **must** be server side operations, either web api or mvc action calls.
 
 Use the **[product.json](products.json)** file as a data source for your application.
 
